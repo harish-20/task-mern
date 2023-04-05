@@ -1,0 +1,101 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100vw;
+}
+
+.login-modal {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  gap: 1rem;
+  padding: 2rem 3rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.441);
+  border-radius: 5px;
+}
+
+.login-modal label {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.login-modal input {
+  font-size: 1.2rem;
+  height: 1.5rem;
+}
+
+.login-modal button {
+  padding: 0.6rem 1rem;
+  background-color: rgb(22, 121, 251);
+  outline: none;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.login-modal button:hover {
+  background-color: rgb(19, 113, 235);
+}
+
+.messages-container {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.message-list {
+  list-style: none;
+}
+
+.message-list li {
+  padding: 1rem 2rem;
+  min-width: 500px;
+  margin: 2rem;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.723);
+}
+
+.message-list h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.message-list p {
+  font-weight: 600;
+  text-align: right;
+}
+
+.new-message form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 300px;
+}
+
+.new-message input {
+  font-size: 1.3rem;
+}
+
+.new-message button {
+  padding: 0.5rem 1.2rem;
+  width: 100%;
+  background-color: rgba(31, 90, 251, 0.83);
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.new-message button:hover {
+  background-color: rgba(18, 75, 231, 0.83);
+}
